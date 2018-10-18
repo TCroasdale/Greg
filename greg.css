@@ -2,8 +2,8 @@
     position: fixed;
     left: 50%;
     top: 50%;
-    margin-top: -162px;
-    margin-left: -113px;
+    margin-top: -250px;
+    margin-left: -200px;
 }
 
 body:hover .greggo img{
@@ -15,4 +15,22 @@ body:hover .greggo img{
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
         transition-duration: 1s;
+}
+
+.el-greggle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+}
+
+.el-greggo{
+    position: fixed;
+    top: 15%;
+    left: 0;
+    bottom: 15%;
+    right: 0;
+    background-color: yellow;
 }
