@@ -6,7 +6,7 @@
     margin-left: -200px;
 }
 
-body:hover .greggo img{
+/*body:hover .greggo img{
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -15,7 +15,7 @@ body:hover .greggo img{
     -moz-transition-duration: 1s;
     -o-transition-duration: 1s;
         transition-duration: 1s;
-}
+}*/
 
 .el-greggle{
     position: fixed;
