@@ -15,7 +15,7 @@ jQuery.fn.shake = function (speedmod) {
         $(this).css({
             "position": "fixed"
         });
-        for (var x = 1; x <= 2; x++) {
+        for (var x = 1; x <= 1; x++) {
             $(this).animate({
                 left: '49%'
             }, 50*speedmod).animate({
