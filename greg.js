@@ -11,10 +11,10 @@ window.addEventListener('load', function(){
     d = new Date()
     if(d.getDate() == 25 && d.getMonth() == 11){
         console.log("Have a slightly less depressing tuesday everyone!")
-        $('#greg-hat').attr("src","Images/el-greg_hat-xmas.png").load()
-        $('#greg-text').attr("src","Images/el-greg_fiesta-xmas.png").load()
-        $('#greg-marraca').attr("src","Images/el-greg_marraca-xmas.png").load()
-        $('#greg-marraca-2').attr("src","Images/el-greg_marraca_2-xmas.png").load()
+        $('#greg-hat').attr("src","Images/el-greg_hat-xmas.png")
+        $('#greg-text').attr("src","Images/el-greg_fiesta-xmas.png")
+        $('#greg-marraca').attr("src","Images/el-greg_marraca-xmas.png")
+        $('#greg-marraca-2').attr("src","Images/el-greg_marraca_2-xmas.png")
     }
 }, false )
 
