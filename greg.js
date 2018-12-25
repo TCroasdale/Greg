@@ -2,11 +2,18 @@ window.addEventListener('load', function(){
     console.log("No tengo idea de por qué pensé que esto sería divertido.");
     num = Math.floor(Math.random() * 100)
     if(num == 1){
-        $('#greg-head').attr("src","Images/howdy.png");
+        $('#greg-head').attr("src","Images/howdy.png")
         $('#greg-hat').detach()
         $('#greg-text').detach()
         $('#greg-marraca').detach()
         $('#greg-marraca-2').detach()
+    }
+    if(Date.getDate() == 25 && Date.getMonth() == 11){
+        $('#greg-head').attr("src","Images/el-greg_face.png")
+        $('#greg-hat').attr("src","Images/el-greg_hat-xmas.png")
+        $('#greg-text').attr("src","Images/el-greg_fiesta-xmas.png")
+        $('#greg-marraca').attr("src","Images/el-greg_marraca-xmas.png")
+        $('#greg-marraca-2').attr("src","Images/el-greg_marraca_2-xmas.png")
     }
 }, false )
 
