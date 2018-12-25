@@ -8,7 +8,9 @@ window.addEventListener('load', function(){
         $('#greg-marraca').detach()
         $('#greg-marraca-2').detach()
     }
-    if(Date.getDate() == 25 && Date.getMonth() == 11){
+    d = new Date()
+    if(d.getDate() == 25 && d.getMonth() == 11){
+        console.log("Have a slightly less depressing tuesday everyone!")
         $('#greg-head').attr("src","Images/el-greg_face.png")
         $('#greg-hat').attr("src","Images/el-greg_hat-xmas.png")
         $('#greg-text').attr("src","Images/el-greg_fiesta-xmas.png")
