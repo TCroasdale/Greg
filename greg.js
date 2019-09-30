@@ -1,7 +1,7 @@
 window.addEventListener('load', function(){
     console.log("No tengo idea de por qué pensé que esto sería divertido.");
     num = Math.floor(Math.random() * 100)
-    if(num > 1){
+    if(num === 1){
         $('#greg-head').attr("src","Images/howdy.png")
         $('#greg-hat').detach()
         $('#greg-text').detach()
