@@ -1,41 +1,23 @@
-.greg{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    margin-top: -250px;
-    margin-left: -200px;
-    max-width: 100%;
+body {
+  background-color: #efefef;
 }
 
-/* body:hover .greggo img{
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-        transition-duration: 1s;
-} */
+canvas {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  border: 1px red solid;
+  height: 350px;
 
-.el-greggle{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: red;
 }
 
-.el-greggo{
-    position: fixed;
-    top: 15%;
-    left: 0;
-    bottom: 15%;
-    right: 0;
-    background-color: yellow;
-}
-
-footer .groogle{
-    color: #ee0000
+#canvas-container {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
